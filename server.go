@@ -97,7 +97,7 @@ func getFile(name string) func(http.ResponseWriter, *http.Request) {
 
 // hello - simple handler to check if server is working
 func hello(w http.ResponseWriter, _ *http.Request) {
-	if _, err := io.WriteString(w, "CSV sever work"); err != nil {
+	if _, err := io.WriteString(w, "CSV server work"); err != nil {
 		log.Println(err)
 	}
 }

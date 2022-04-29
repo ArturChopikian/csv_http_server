@@ -1,4 +1,4 @@
-module csv_server
+module github.com/ArturChopikian/csv_http_server
 
 go 1.17
 
